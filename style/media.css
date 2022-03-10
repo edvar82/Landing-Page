@@ -1,0 +1,36 @@
+@media screen and (max-width: 760px){
+    .cabecalho{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    a{
+        padding: 10px;
+    }
+    .cabecalho-lista{
+        padding: 1px;
+    }
+    h1{
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .container-paragrafo{
+        font-size: 18px;
+    }
+    .container-imagem-mulher{
+        display: none;
+    }
+    .container-imagem-espiral{
+        display: none;
+    }
+    .container-btn{
+        align-self: center;
+    }
+}
+@media screen and (max-width: 1024px){
+    .container-imagem-mulher{
+        display: none;
+    }
+    .container-imagem-espiral{
+        display: none;
+    }
+}

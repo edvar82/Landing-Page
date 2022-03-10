@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap');
+
+body{
+    width: 100%;
+    max-width: 1440px;
+    height: 840px;
+    margin: 0 auto;
+    position: relative;
+    background: white;
+    padding: 15px;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.cabecalho-imagem{
+   width: 50px; 
+   height: 44px;
+}
+ul{
+    display:inline-flex;
+}
+a{
+    padding: 35px;
+    text-decoration: none;
+    color: inherit;
+    color: #1D1C1D;
+    list-style: none;
+    border-radius: 20px;
+}
+.cabecalho-btn{
+    background-color: #1D1C1D;
+    border: 1px solid #000000;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-style: none;
+}
+.cabecalho-btn:hover{
+    cursor: pointer;
+}
+.container{
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+h1{
+    font-family: 'Manrope', sans-serif;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 80px; 
+    letter-spacing: -0.04em; 
+}
+.container-paragrafo{
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+}
+.container-btn{
+    background-color: #ED553B;
+    color: white;
+    border-style: none;
+    padding: 20px 70px;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 120%;
+}
+.container-btn:hover{
+    cursor: pointer;
+}
+p{
+    color: #1D1C1D;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.container-imagem-mulher{
+    position: absolute;
+    width: 100%;
+    max-width: 510px;
+    height: 510px;
+    left: 771px;
+    top: 227px;  
+    z-index: 9;
+    right: 500px;
+}
+.container-imagem-espiral{
+    position: absolute;
+    width: 510px;
+    height: 510px;
+    left: 771px;
+    top: 210px;
+}
+
+
